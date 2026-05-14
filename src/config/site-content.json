@@ -5,20 +5,22 @@
 		"username": "Suni"
 	},
 	"theme": {
-		"colorBrand": "#A53E22",
-		"colorPrimary": "#5B423F",
+		"colorBrand": "#ff80b6",
+		"colorPrimary": "#000000",
 		"colorSecondary": "#8b7667",
-		"colorBrandSecondary": "#eec25e",
+		"colorBrandSecondary": "#64afff92",
 		"colorBg": "#d4e8f3",
 		"colorBorder": "#ffffff",
 		"colorCard": "#ffffff99",
 		"colorArticle": "#ffffffcc"
 	},
 	"backgroundColors": [
-		"#CE433E",
-		"#F14AEC",
-		"#FE7BA5",
-		"#3F91CC"
+		"#25E32E",
+		"#A359E2",
+		"#6D26A6",
+		"#064FCE",
+		"#32777F",
+		"#1248D0"
 	],
 	"artImages": [
 		{
