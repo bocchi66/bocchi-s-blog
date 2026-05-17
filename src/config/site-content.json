@@ -34,13 +34,9 @@
 		{
 			"id": "1c7b726fe720679b",
 			"url": "/images/art/1c7b726fe720679b.jpg"
-		},
-		{
-			"id": "url-1779043537744",
-			"url": "https://fengming-1253702245.cos.ap-nanjing.myqcloud.com/blog/image/yinshi.jpg"
 		}
 	],
-	"currentArtImageId": "url-1779043537744",
+	"currentArtImageId": "cat",
 	"backgroundImages": [
 		{
 			"id": "",
@@ -64,11 +60,18 @@
 			"order": 1
 		},
 		{
-			"id": "button-1779043522659",
+			"id": "button-1779043586905",
+			"type": "bilibili",
+			"value": "https://space.bilibili.com/344420424",
+			"label": "",
+			"order": 3
+		},
+		{
+			"id": "button-1779043598585",
 			"type": "wechat",
 			"value": "/images/social-buttons/c860b52ecf48c7f6.png",
 			"label": "",
-			"order": 3
+			"order": 4
 		}
 	],
 	"clockShowSeconds": true,
