@@ -30,7 +30,13 @@ export default function HiCard() {
 
 	return (
 		<HomeDraggableLayer cardKey='hiCard' x={x} y={y} width={styles.width} height={styles.height}>
-			<Card order={styles.order} width={styles.width} height={styles.height} x={x} y={y} className='relative text-center max-sm:static max-sm:translate-0'>
+			<Card order={styles.order} width={styles.width} height={styles.height} x={x} y={y} className='relative text-center max-sm:static max-sm:translate-0 hi-card-glass'>
+				<div
+					className='pointer-events-none absolute inset-0 rounded-[40px]'
+					style={{
+						background: 'linear-gradient(135deg, rgba(255,255,255,0.35) 0%, transparent 50%, rgba(255,255,255,0.1) 100%)'
+					}}
+				/>
 				{siteContent.enableChristmas && (
 					<>
 						<img

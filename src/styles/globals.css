@@ -106,6 +106,21 @@
 	}
 }
 
+.card.hi-card-glass {
+	backdrop-filter: blur(18px) saturate(1.4);
+	background: linear-gradient(
+		135deg,
+		rgba(255, 255, 255, 0.3) 0%,
+		rgba(255, 255, 255, 0.12) 50%,
+		rgba(255, 255, 255, 0.2) 100%
+	);
+	border-color: rgba(255, 255, 255, 0.5);
+	box-shadow:
+		0 40px 50px -32px rgba(0, 0, 0, 0.05),
+		inset 0 1px 0 rgba(255, 255, 255, 0.7),
+		inset 0 -1px 0 rgba(0, 0, 0, 0.04);
+}
+
 @utility card-rounded {
 	@apply rounded-[40px];
 	@supports (corner-shape: squircle) {
